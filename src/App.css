@@ -1,0 +1,19 @@
+.wrap {
+  display: flex;
+
+}
+.wrap > div{
+  flex-basis: 300px;
+  flex-grow: 1;
+  border: 1px solid rgba(0,0,0,0.15);
+  vertical-align: top;
+  min-height: 100vh;
+ }
+ .run-demo-but {
+   float: right;
+ }
+ .textarea-width {
+   width: 100%;
+   min-height: 1000px !important;
+   border: none;
+ }
